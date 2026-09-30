@@ -1,0 +1,90 @@
+{
+  "seed": 20260930,
+  "sizes": [
+    100,
+    250,
+    500,
+    1000,
+    2000
+  ],
+  "repeats": 5,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "timer": "perf_counter_ns",
+  "memory": [
+    {
+      "pattern": "Random",
+      "algorithm": "Insertion",
+      "n": 2000,
+      "peak_traced_bytes": 148
+    },
+    {
+      "pattern": "Random",
+      "algorithm": "Bubble",
+      "n": 2000,
+      "peak_traced_bytes": 224
+    },
+    {
+      "pattern": "Random",
+      "algorithm": "Heap",
+      "n": 2000,
+      "peak_traced_bytes": 196
+    },
+    {
+      "pattern": "Sorted",
+      "algorithm": "Insertion",
+      "n": 2000,
+      "peak_traced_bytes": 148
+    },
+    {
+      "pattern": "Sorted",
+      "algorithm": "Bubble",
+      "n": 2000,
+      "peak_traced_bytes": 192
+    },
+    {
+      "pattern": "Sorted",
+      "algorithm": "Heap",
+      "n": 2000,
+      "peak_traced_bytes": 196
+    },
+    {
+      "pattern": "Reverse",
+      "algorithm": "Insertion",
+      "n": 2000,
+      "peak_traced_bytes": 148
+    },
+    {
+      "pattern": "Reverse",
+      "algorithm": "Bubble",
+      "n": 2000,
+      "peak_traced_bytes": 224
+    },
+    {
+      "pattern": "Reverse",
+      "algorithm": "Heap",
+      "n": 2000,
+      "peak_traced_bytes": 196
+    },
+    {
+      "pattern": "Duplicates",
+      "algorithm": "Insertion",
+      "n": 2000,
+      "peak_traced_bytes": 148
+    },
+    {
+      "pattern": "Duplicates",
+      "algorithm": "Bubble",
+      "n": 2000,
+      "peak_traced_bytes": 224
+    },
+    {
+      "pattern": "Duplicates",
+      "algorithm": "Heap",
+      "n": 2000,
+      "peak_traced_bytes": 196
+    }
+  ],
+  "note": "Executed by Codex in its Linux execution environment, not on the student laptop."
+}
