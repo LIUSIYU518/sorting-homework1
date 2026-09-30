@@ -2,11 +2,11 @@
 
 Insertion Sort, Bubble Sort and Heap Sort
 
-Student: SIYU LIU
+Student: LIU SIYU
 
 Student ID: 2025193151
 
-GitHub repository URL:https://github.com/LIUSIYU518/sorting-homework1
+GitHub repository URL: https://github.com/LIUSIYU518/sorting-homework1
 
 The student ID and repository URL can also be entered in the editable fields at the bottom of this page.
 
